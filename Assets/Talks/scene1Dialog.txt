@@ -1,0 +1,13 @@
+Bartender: [question=0]So, can I ask you something?
+[choice]Sure!
+[choice]I'm not im the mood.
+Player: Hello, fair bartender. I am in great need, so my dead parrot sent me here.
+Bartender: You really had too much to drink last night...
+Player: Good evening. I really need a beer.
+Bartender: Don't you think you had enough beer last night?
+Player: I don't even know who I am. What happened last night?
+Bartender: Beer is never enough! But do tell, what happened last night?
+Player: All I know is an ugly old woman dressed in black paid for your drinks. Perhaps, she's the one to blaim!
+Bartender: Go to the General Store at once, the know-it-all there may have your answer.
+Player: This sounds good. I'll go there right now!
+Bartender: You might be right. I must leave. But first, pour me a beer! I need the strenght to continue!
