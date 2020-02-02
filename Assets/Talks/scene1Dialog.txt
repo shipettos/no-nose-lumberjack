@@ -1,13 +1,37 @@
-Bartender: [question=0]So, can I ask you something?
-[choice]Sure!
-[choice]I'm not im the mood.
+[title=Cutscene_0_begin]
+Player: [question=0]What shall I do?
+[choice]Get to the point [newtalk start=goto1_1_start break=goto1_2_end]
+[choice]Ask for a drink [newtalk start=goto1_3_start break=goto1_4_end]
+[title=Cutscene_0_end]
+[title=goto1_1_start]
 Player: Hello, fair bartender. I am in great need, so my dead parrot sent me here.
-Bartender: You really had too much to drink last night...
+Bartender: You really had too much to drink last night...[newtalk start=continueDialog1_start break=continueDialog1_end]
+[title=goto1_2_end]
+[title=goto1_3_start]
 Player: Good evening. I really need a beer.
-Bartender: Don't you think you had enough beer last night?
-Player: I don't even know who I am. What happened last night?
-Bartender: Beer is never enough! But do tell, what happened last night?
-Player: All I know is an ugly old woman dressed in black paid for your drinks. Perhaps, she's the one to blaim!
+Bartender: Don't you think you had enough beer last night?[newtalk start=continueDialog1_start break=continueDialog1_end]
+[title=goto1_4_end]
+[title=continueDialog1_start]
+Player: [question=1]What shall I do?
+[choice]Admit your ignorance [newtalk start=goto1_5_start break=goto1_5_end]
+[choice]Deny Everything [newtalk start=goto1_6_start break=goto1_6_end]
+[title=continueDialog1_end]
+[title=goto1_5_start]
+Player: I don't even know who I am. What happened last night?[newtalk start=continueDialog2_start break=continueDialog2_end]
+[title=goto1_5_end]
+[title=goto1_6_start]
+Player: Beer is never enough! But do tell, what happened last night?[newtalk start=continueDialog2_start break=continueDialog2_end]
+[title=goto1_6_end]
+[title=continueDialog2_start]
+Bartender: All I know is an ugly old woman dressed in black paid for your drinks. Perhaps, she's the one to blaim!
 Bartender: Go to the General Store at once, the know-it-all there may have your answer.
+Player: [question=2]What shall I do?
+[choice]Go there [newtalk start=goto1_9_start break=goto1_9_end]
+[choice]After 10 drinks [newtalk start=goto1_10_start break=goto1_10_end]
+[title=continueDialog2_end]
+[title=goto1_9_start]
 Player: This sounds good. I'll go there right now!
-Bartender: You might be right. I must leave. But first, pour me a beer! I need the strenght to continue!
+[title=goto1_9_end]
+[title=goto1_10_start]
+Player: You might be right. I must leave. But first, pour me a beer! I need the strenght to continue!
+[title=goto1_10_end]

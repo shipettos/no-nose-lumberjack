@@ -27,8 +27,6 @@ Girl:We already had this conversation today! And you said you were following Sei
 [title=FollowUp_Cutscene_0_SaveNode_2_begin]
 Girl:I won't talk to you anymore, you said you weren't following Seize Studios on social media =(
 [title=FollowUp_Cutscene_0_SaveNode_2_end]
-
-
 [title=TMPdemo_begin]
 Text Mesh Pro is fully supported! They way it does sprites change a little bit, be sure to check the Documentation.
 Also, with it you can use the [jitter=5 angle=1]jitter[/jitter] tag! a nice way of saying something [jitter=10 angle=5]spooky[/jitter]

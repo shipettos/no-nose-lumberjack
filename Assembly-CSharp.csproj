@@ -93,6 +93,9 @@
     <Compile Include="Assets\scripts\DialogueSystem.cs" />
     <Compile Include="Assets\scripts\MainMenu.cs" />
     <Compile Include="Assets\scripts\NPC.cs" />
+    <Compile Include="Assets\scripts\exitScript.cs" />
+    <Compile Include="Assets\scripts\loadCustomScene.cs" />
+    <Compile Include="Assets\scripts\loadCustomSceneScript.cs" />
     <Compile Include="Assets\scripts\loadScene.cs" />
     <Compile Include="Assets\scripts\quit.cs" />
     <None Include="Assets\RPGTALK\Demo\Talks\DemoTagsText.txt" />
