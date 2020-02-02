@@ -94,10 +94,12 @@
     <Compile Include="Assets\scripts\MainMenu.cs" />
     <Compile Include="Assets\scripts\NPC.cs" />
     <Compile Include="Assets\scripts\exitScript.cs" />
+    <Compile Include="Assets\scripts\go2.cs" />
     <Compile Include="Assets\scripts\loadCustomScene.cs" />
     <Compile Include="Assets\scripts\loadCustomSceneScript.cs" />
-    <Compile Include="Assets\scripts\loadScene.cs" />
+    <Compile Include="Assets\scripts\playerController.cs" />
     <Compile Include="Assets\scripts\quit.cs" />
+    <Compile Include="Assets\scripts\triggerScene.cs" />
     <None Include="Assets\RPGTALK\Demo\Talks\DemoTagsText.txt" />
     <None Include="Assets\RPGTALK\Demo\Talks\DemoTimeline.txt" />
     <None Include="Assets\RPGTALK\ReadMe.txt" />
